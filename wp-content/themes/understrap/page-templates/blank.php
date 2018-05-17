@@ -26,7 +26,7 @@
 <?php while ( have_posts() ) : the_post(); ?>
 
 	<?php get_template_part( 'loop-templates/content', 'blank' ); ?>
-	проверка на работу гита
+	<!-- проверка на работу гита -->
 
 <?php endwhile; // end of the loop. ?>
 <?php wp_footer(); ?>
